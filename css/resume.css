@@ -13,7 +13,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 19rem;
   }
 }
 p {
@@ -62,7 +62,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
-  color: #fff !important;
+  color:#fff !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -75,7 +75,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: ##e1a2c2;
+  background-color: #dbd5de;
 }
 
 .dev-icons {
@@ -83,19 +83,19 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: ##e1a2c2;
+  color: #e9c7f2;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  background-color: #e1a2c2;
+  background-color: #e9c7f2;
 }
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
-  color: #e1a2c2;
+  color: #e9c7f2;
 }
 
 @media (min-width: 992px) {
@@ -157,9 +157,10 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
+  padding-top: 100rem !important;
+  padding-bottom: 100rem !important;
+  max-width: 100rem;
+  max-height: none;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -183,19 +184,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #e1a2c2 !important;
+  background-color: #e9c7f2 !important;
 }
 
 .text-primary {
-  color: #e1a2c2 !important;
+  color: #e9c7f2 !important;
 }
 
 a {
-  color: #e1a2c2;
+  color: #e9c7f2;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #632980;
 }
 #sideNav .navbar {
   background-color: #a9f0ff;
@@ -204,3 +205,4 @@ a:hover, a:focus, a:active {
 .fa-ul {
   font-size: 1.5rem;
 }
+
